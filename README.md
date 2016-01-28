@@ -1,5 +1,7 @@
 # Keybin Client library
 
+See [Keybin](https://github.com/MarcDufresne/keybin) for the API code and documentation.
+
 ## Configuration
 
 Import the library and call the init function to configure the client
