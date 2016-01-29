@@ -19,7 +19,7 @@ Import the library and call the init function to configure the client
     # username: your Keybin username
     # password: your Keybin password
     # client_id (Optional): the client_id to use for your token. 
-                            defaults to 'default' if none is specified
+    #                       defaults to 'default' if none is specified
     keybin_client.init(host, username, password, client_id)
         
 ## Methods
