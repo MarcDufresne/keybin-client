@@ -1,6 +1,13 @@
 # Keybin Client library
 
-See [Keybin](https://github.com/MarcDufresne/keybin) for the API code and documentation.
+See [Keybin](https://github.com/MarcDufresne/keybin) for the API 
+code and documentation.
+
+## Installation
+
+To install simply run:
+
+    pip install keybin-client
 
 ## Configuration
 
@@ -24,7 +31,8 @@ but will generate one if no token is specified.
 
 ### Get Token
 
-Use this to generate a token from the API. This method can receive an optional `client_id`, they will use 
+Use this to generate a token from the API. 
+This method can receive an optional `client_id`, they will use 
 the `client_id` from `keybin.init()` if none is specified.
 
     keybin_client.get_token(client_id=None)
