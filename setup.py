@@ -7,7 +7,7 @@ setup(
     zip_safe=False,
     packages=find_packages(),
     install_requires=[
-        "requests==2.9.1",
+        "requests==2.20.0",
     ],
     description="Keybin client library",
     author="MarcDufresne",
